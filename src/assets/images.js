@@ -1,0 +1,23 @@
+const IMAGES_PATH = '/assets/images';
+
+export const Frame1 = `${IMAGES_PATH}/Frame1.png`;
+export const Frame2 = `${IMAGES_PATH}/Frame2.png`;
+export const Frame3 = `${IMAGES_PATH}/Frame3.png`;
+export const Frame4 = `${IMAGES_PATH}/Frame4.png`;
+export const Frame5 = `${IMAGES_PATH}/Frame5.png`;
+export const Frame6 = `${IMAGES_PATH}/Frame6.png`;
+export const Frame7 = `${IMAGES_PATH}/Frame7.png`;
+export const Frame8 = `${IMAGES_PATH}/Frame8.png`;
+export const Frame9 = `${IMAGES_PATH}/Frame9.png`;
+export const Frame10 = `${IMAGES_PATH}/Frame10.png`;
+export const Frame11 = `${IMAGES_PATH}/Frame11.png`;
+export const Frame12 = `${IMAGES_PATH}/Frame12.png`;
+export const Frame13 = `${IMAGES_PATH}/Frame13.png`;
+export const Frame14 = `${IMAGES_PATH}/Frame14.png`;
+export const Frame15 = `${IMAGES_PATH}/Frame15.png`;
+export const Frame16 = `${IMAGES_PATH}/Frame16.png`;
+export const NavLogo = `${IMAGES_PATH}/NavLogo.png`;
+export const FooterLogo = `${IMAGES_PATH}/FooterLogo.png`;
+export const InspImg = `${IMAGES_PATH}/InspImg.png`;
+export const HeroImg = `${IMAGES_PATH}/HeroImg.png`;
+export const MbToken = `${IMAGES_PATH}/MbToken.png`;
