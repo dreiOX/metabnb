@@ -9,7 +9,7 @@ function PageWrapper({ children }) {
       <header>
         <Navbar />
       </header>
-      <main>{children}</main>
+      <main className="relative">{children}</main>
       <footer>
         <Footer />
       </footer>

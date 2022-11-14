@@ -9,7 +9,7 @@ function Navbar() {
   const [modalOpen, setModalOpen] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <div className='h-24 flex gap-52 justify-between items-center lg:px-40 px-2 sticky top-0'>
+    <div className='h-24 flex gap-52 justify-between items-center lg:px-40 px-2 sticky top-0 z-40'>
       <div className='flex items-center'>
         <Link to={HOME}>
           <img
@@ -28,7 +28,7 @@ function Navbar() {
       </div>
 
       <div
-        className={` bg-[#fff] transition-all duration-500 ease-in lg:flex items-center absolute lg:static left-0 lg:z-auto z-[-1] w-full gap-32 ${
+        className={` bg-[#fff] transition-all duration-500 ease-in lg:flex items-center absolute lg:static left-0 lg:z-auto z-[-1] w-full gap-32 pb-8 sm:p-0 ${
           navOpen ? ' top-[6.2rem]' : ' top-[-800px]'
         }`}
       >

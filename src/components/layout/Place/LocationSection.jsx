@@ -11,18 +11,18 @@ function LocationSection() {
   }, []);
   return (
     <div className='lg:px-36 md:px-1 px-2 py-12'>
-      <div className='flex items-center '>
-        <div className='sm:flex justify-between items-center sm:gap-4 lg:gap-16 hidden'>
-          <p>Restaurant</p>
-          <p>Cottage</p>
-          <p>Castle</p>
-          <p>fantast city</p>
-          <p>beach</p>
-          <p>Carbins</p>
-          <p>Off-grid</p>
-          <p>Farm</p>
+      <div className='sm:flex items-center '>
+        <div className='sm:flex sm:justify-between items-center sm:gap-4 lg:gap-16'>
+          <p className='text-center'>Restaurant</p>
+          <p className='text-center'>Cottage</p>
+          <p className='text-center'>Castle</p>
+          <p className='text-center'>fantast city</p>
+          <p className='text-center'>beach</p>
+          <p className='text-center'>Carbins</p>
+          <p className='text-center'>Off-grid</p>
+          <p className='text-center'>Farm</p>
         </div>
-        <p className='flex gap-2 border-2 border-[#D7D7D7] rounded-md sm:p-2 py-2 px-24 sm:ml-6 lg:ml-24 mx-auto'>
+        <p className='flex gap-2 border-2 border-[#D7D7D7] rounded-md sm:p-2 py-2 px-24 sm:ml-6 lg:ml-24 mx-auto w-[80%] sm:w-auto'>
           Location
           <span>
             <img src={filter} alt='filter icon' className='rotate-90' />

@@ -8,15 +8,15 @@ function PlaceCard({ image, title, price, distance, availability }) {
         <div className=' flex items-center justify-center'>
           <img src={image} alt={title} />
         </div>
-        <div className='flex gap-24 md:gap-[4.5rem] mt-2 items-center justify-center'>
-          <p className='text-xs font-normal text-left'>{title}</p>
-          <p className='text-xs font-bold text-right'>{price}</p>
+        <div className='flex gap-0 md:gap-[4.5rem] mt-2 items-center justify-between'>
+          <p className=' px-2 sm:px-0 lg:px-2 text-xs font-normal '>{title}</p>
+          <p className='px-2 sm:px-0 lg:px-2 text-xs font-bold '>{price}</p>
         </div>
-        <div className='flex gap-6 md:gap-4 mt-2 items-center justify-center'>
-          <p className='text-xs font-normal text-left'>{distance}</p>
-          <p className='text-xs font-normal text-right'>{availability}</p>
+        <div className='flex gap-0  md:gap-8 lg:gap-0 justify-between mt-2 '>
+          <p className='px-2 sm:px-0 lg:px-2 text-xs font-normal '>{distance}</p>
+          <p className='px-2 sm:px-0 lg:px-2 text-xs font-normal '>{availability}</p>
         </div>
-        <div className='ml-2 mt-2 flex gap-1'>
+        <div className='px-2 sm:px-0 lg:px-2 mt-2 flex gap-1'>
           <span className='text-[#A02279]'>&#9733;</span>
           <span className='text-[#A02279]'>&#9733;</span>
           <span className='text-[#A02279]'>&#9733;</span>

@@ -15,7 +15,7 @@ function DiscoverSection() {
           <br />
           access to loads of our exclusive services.
         </p>
-        <button className='bg-[#fff] text-[#A02279] py-4 lg:px-4 px-8 border-2 border-white rounded-lg w-[80%] sm:w-36'>
+        <button className='bg-[#fff] text-[#A02279] py-4 lg:px-4 px-8 border-2 border-white rounded-lg w-[80%] sm:w-[50%] lg:w-[26%]'>
           Learn more
         </button>
       </div>
