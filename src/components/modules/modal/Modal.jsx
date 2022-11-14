@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { arrow, close } from '../../../assets/icons';
 import { metamaskImg, walletConnectImg } from '../../../assets/images';
 
 function Modal({ setOpenModal }) {
   return (
     <div
-      className='fixed inset-0 bg-[#000] bg-opacity-50 flex items-center justify-center '
+      className='fixed inset-0 bg-[#000] bg-opacity-70 flex items-center justify-center '
       onClick={() => {
         setOpenModal(false);
       }}
@@ -21,7 +22,7 @@ function Modal({ setOpenModal }) {
                 setOpenModal(false);
               }}
             >
-              X
+              <img src={close} alt='close icon' />
             </button>
           </div>
         </div>
@@ -36,7 +37,9 @@ function Modal({ setOpenModal }) {
                 <p className=' font-bold'>Metamask</p>
               </div>
               <div>
-                <button>&gt;</button>
+                <button>
+                  <img src={arrow} alt='arrow icon' />
+                </button>
               </div>
             </div>
           </Link>
@@ -47,7 +50,9 @@ function Modal({ setOpenModal }) {
                 <p className=' font-bold'>WalletConnect</p>
               </div>
               <div>
-                <button>&gt;</button>
+                <button>
+                  <img src={arrow} alt='arrow icon' />
+                </button>
               </div>
             </div>
           </Link>
