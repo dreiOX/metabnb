@@ -12,7 +12,7 @@ function LocationSection() {
   return (
     <div className='lg:px-36 md:px-1 px-2 py-12'>
       <div className='flex items-center '>
-        <div className='sm:flex justify-between items-center sm:gap-4 lg:gap-20 hidden'>
+        <div className='sm:flex justify-between items-center sm:gap-4 lg:gap-16 hidden'>
           <p>Restaurant</p>
           <p>Cottage</p>
           <p>Castle</p>

@@ -5,7 +5,7 @@ import { Footer } from '../footer';
 
 function PageWrapper({ children }) {
   return (
-    <div>
+    <div className="font-rose">
       <header>
         <Navbar />
       </header>

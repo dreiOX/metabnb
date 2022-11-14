@@ -32,7 +32,7 @@ function Navbar() {
           navOpen ? ' top-[6.2rem]' : ' top-[-800px]'
         }`}
       >
-        <div className='flex flex-col lg:flex-row lg:gap-20 gap-8 text-sm font-normal text-[#434343] sm:mb-0 mb-8 items-center'>
+        <div className='flex flex-col lg:flex-row lg:gap-16 gap-8 text-sm font-normal text-[#434343] sm:mb-0 mb-8 items-center'>
           <Link to={HOME}>Home</Link>
           <Link to={PLACE}>Place to stay</Link>
           <Link>NFTs</Link>

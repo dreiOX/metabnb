@@ -12,7 +12,7 @@ function PlaceCard({ image, title, price, distance, availability }) {
           <p className='text-xs font-normal'>{title}</p>
           <p className='text-xs font-bold'>{price}</p>
         </div>
-        <div className='flex gap-12 mt-2 items-center justify-center'>
+        <div className='flex gap-6 mt-2 items-center justify-center'>
           <p className='text-xs font-normal'>{distance}</p>
           <p className='text-xs font-normal'>{availability}</p>
         </div>
