@@ -39,7 +39,7 @@ function Navbar() {
           <Link>Community</Link>
         </div>
 
-        <Link className="flex items-center justify-center mb-12">
+        <Link className="flex items-center justify-center">
           <button
             className='bg-purple px-8 py-4 rounded-lg text-white lg:ml-24 w-[80%]'
             onClick={() => {
