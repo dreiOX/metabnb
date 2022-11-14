@@ -3,8 +3,8 @@ import { InspImg } from '../../../assets/images';
 
 function DiscoverSection() {
   return (
-    <div className='bg-[#A02279] grid grid-cols-2 px-40 py-12'>
-      <div className='my-auto'>
+    <div className='bg-[#A02279] grid lg:grid-cols-2 grid-cols-1 lg:px-40 px-2 py-12 lg:gap-0 gap-12'>
+      <div className='my-auto text-center lg:text-left'>
         <h2 className='text-5xl font-bold text-white mb-12'>Metabnb NFTs</h2>
         <p className='text-lg font-normal text-white mb-12'>
           Discover our NFT gift cards collection. Loyal
@@ -15,7 +15,7 @@ function DiscoverSection() {
           <br />
           access to loads of our exclusive services.
         </p>
-        <button className='bg-[#fff] text-[#A02279] py-4 px-8 border-2 border-white rounded-lg'>
+        <button className='bg-[#fff] text-[#A02279] py-4 lg:px-4 px-8 border-2 border-white rounded-lg w-full sm:w-36'>
           Learn more
         </button>
       </div>

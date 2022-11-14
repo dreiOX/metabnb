@@ -5,6 +5,13 @@ module.exports = {
     colors: {
       main: '#434343',
     },
+    screens: {
+      sm: '512px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px'
+    },
     extend: {},
   },
   plugins: [],

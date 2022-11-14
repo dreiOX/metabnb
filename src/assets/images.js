@@ -21,3 +21,5 @@ export const FooterLogo = `${IMAGES_PATH}/FooterLogo.png`;
 export const InspImg = `${IMAGES_PATH}/InspImg.png`;
 export const HeroImg = `${IMAGES_PATH}/HeroImg.png`;
 export const MbToken = `${IMAGES_PATH}/MbToken.png`;
+export const metamaskImg = `${IMAGES_PATH}/metamaskImg.png`;
+export const walletConnectImg = `${IMAGES_PATH}/walletConnectImg.png`;

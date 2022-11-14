@@ -9,11 +9,11 @@ function InspirationSection() {
     setCardData(data);
   }, []);
   return (
-    <div className='px-40 py-12'>
+    <div className='lg:px-36 px-2 py-12'>
       <h2 className='font-bold text-5xl text-[#000000] text-center mb-12'>
         Inspiration for your next adventure
       </h2>
-      <div className='grid grid-cols-4 items-center gap-12 justify-center my-12'>
+      <div className='grid sm:grid-cols-3 lg-grid-cols-4 grid-cols-1 items-center lg:gap-12 justify-center my-12'>
         {cardData.map((place) => {
           return (
             <PlaceCard
