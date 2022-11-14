@@ -13,7 +13,7 @@ function InspirationSection() {
       <h2 className='font-bold text-5xl text-[#000000] text-center mb-12'>
         Inspiration for your next adventure
       </h2>
-      <div className='grid sm:grid-cols-3 md:grid-cols-4 grid-cols-1 items-center gap-8 md:gap-1 lg:gap-8 justify-center my-12'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4  items-center gap-8 md:gap-4 lg:gap-8 justify-center my-12'>
         {cardData.map((place) => {
           return (
             <PlaceCard
