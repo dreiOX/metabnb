@@ -29,7 +29,7 @@ function LocationSection() {
           </span>
         </p>
       </div>
-      <div className='grid sm:grid-cols-3 lg-grid-cols-4 grid-cols-1 items-center gap-8 md:gap-1 lg:gap-8 justify-center my-12'>
+      <div className='grid sm:grid-cols-3 md-grid-cols-4 grid-cols-1 items-center gap-8 md:gap-1 lg:gap-8 justify-center my-12'>
         {cardData.map((location) => {
           return (
             <PlaceCard

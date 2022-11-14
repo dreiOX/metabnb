@@ -19,7 +19,7 @@ function HeroSection() {
         </p>
         <form className='flex justify-center lg:justify-start'>
           <input placeholder='Search for location' className='border-2 border-[#A3A3A3] rounded-l-lg px-4 w-3/5' />
-          <button className='bg-purple text-white py-4 px-20  rounded-r-lg'>Search</button>
+          <button className='bg-purple text-white py-4 sm:px-20 px-8  rounded-r-lg'>Search</button>
         </form>
       </div>
       <div className='lg:ml-20 mx-auto'>

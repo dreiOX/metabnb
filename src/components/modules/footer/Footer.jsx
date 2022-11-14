@@ -5,8 +5,8 @@ import { FooterLogo } from '../../../assets/images';
 
 function Footer() {
   return (
-    <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:px-40 px-2 bg-[#1D1D1E] text-white py-10'>
-      <div className='flex flex-col sm:mb-0 mb-16 sm:items-start items-center'>
+    <div className='grid sm:grid-cols-4 grid-cols-1 lg:px-40 px-2 bg-[#1D1D1E] text-white py-10'>
+      <div className='flex flex-col md:mb-0 mb-16 md:items-start items-center'>
         <img src={FooterLogo} alt='footer logo' className='sm:mb-32 mb-12 w-[195px]' />
         <p className='mb-8 flex gap-6'>
           <img src={facebook} alt='facebook icon' />
