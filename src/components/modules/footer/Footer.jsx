@@ -30,7 +30,7 @@ function Footer() {
         <Link className='text-sm font-normal sm:ml-24 mx-auto'>Castle</Link>
         <Link className='text-sm font-normal sm:ml-24 mx-auto'>Farms</Link>
         <Link className='text-sm font-normal sm:ml-24 mx-auto'>Beach</Link>
-        <Link className='text-sm font-normal sm:ml-24 mx-auto'>Learnmore</Link>
+        <Link className='text-sm font-normal sm:ml-24 mx-auto'>Learn more</Link>
       </div>
       <div className='flex flex-col gap-4 sm:mb-0 mb-16'>
         <h2 className=' text-lg font-bold mb-4 sm:ml-24 mx-auto'>About us</h2>

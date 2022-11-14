@@ -12,7 +12,7 @@ function HeroSection() {
           <span className='text-[#A02279]'>Home</span> in the
           <span className='text-[#A02279]'> Metaverse</span>
         </h2>
-        <p className='text-2xl font-normal text-main mb-14 text-center lg:text-left'>
+        <p className='text-2xl sm:text-xl font-normal text-main mb-14 text-center lg:text-left'>
           we provide you access to luxury and affordable houses
           <br /> in the metaverse, get a chance to turn your
           <br /> imagination to reality at your comfort zone

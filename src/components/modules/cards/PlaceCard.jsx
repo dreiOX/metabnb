@@ -16,12 +16,12 @@ function PlaceCard({ image, title, price, distance, availability }) {
           <p className='px-2 sm:px-0 lg:px-2 text-xs font-normal '>{distance}</p>
           <p className='px-2 sm:px-0 lg:px-2 text-xs font-normal '>{availability}</p>
         </div>
-        <div className='px-2 sm:px-0 lg:px-2 mt-2 flex gap-1'>
-          <span className='text-[#A02279]'>&#9733;</span>
-          <span className='text-[#A02279]'>&#9733;</span>
-          <span className='text-[#A02279]'>&#9733;</span>
-          <span className='text-[#A02279]'>&#9733;</span>
-          <span className='text-[#A02279]'>&#9733;</span>
+        <div className='px-2 sm:px-0 lg:px-2 mt-2 flex gap-2 sm:gap-1'>
+          <span className='text-[#A02279] font-bold'>&#9733;</span>
+          <span className='text-[#A02279] font-bold'>&#9733;</span>
+          <span className='text-[#A02279] font-bold'>&#9733;</span>
+          <span className='text-[#A02279] font-bold'>&#9733;</span>
+          <span className='text-[#A02279] font-bold'>&#9733;</span>
         </div>
       </div>
     </div>
