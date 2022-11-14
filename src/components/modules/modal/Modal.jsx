@@ -36,7 +36,7 @@ function Modal({ setOpenModal }) {
                 <img src={metamaskImg} alt='metamask logo' />
                 <p className=' font-bold'>Metamask</p>
               </div>
-              <div>
+              <div className='flex items-center justify-center'>
                 <button>
                   <img src={arrow} alt='arrow icon' />
                 </button>
@@ -49,7 +49,7 @@ function Modal({ setOpenModal }) {
                 <img src={walletConnectImg} alt='metamask logo' />
                 <p className=' font-bold'>WalletConnect</p>
               </div>
-              <div>
+              <div className='flex items-center justify-center'>
                 <button>
                   <img src={arrow} alt='arrow icon' />
                 </button>
