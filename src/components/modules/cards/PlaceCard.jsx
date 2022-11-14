@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function PlaceCard({ image, title, price, distance, availability }) {
   return (
     <div>
-      <div className='w-[292px] md:w-[250px] lg:[292px] h-[372px] bg-white rounded-2xl border-2 border-[#D7D7D7] flex flex-col p-2 mx-auto'>
+      <div className='w-[292px] sm:w-[292px] md:w-[250px] lg:[292px] h-[372px] bg-white rounded-2xl border-2 border-[#D7D7D7] flex flex-col p-2 mx-auto'>
         <div className=' flex items-center justify-center'>
           <img src={image} alt={title} />
         </div>
