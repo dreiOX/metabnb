@@ -10,9 +10,9 @@ function LocationSection() {
     setCardData(data);
   }, []);
   return (
-    <div className='lg:px-36 px-8 py-12'>
+    <div className='lg:px-36 px-4 py-12'>
       <div className='md:flex items-center '>
-        <div className='md:flex md:justify-between items-center sm:gap-4 lg:gap-16'>
+        <div className='md:flex md:justify-between items-center gap-3 lg:gap-16'>
           <p className='text-center'>Restaurant</p>
           <p className='text-center'>Cottage</p>
           <p className='text-center'>Castle</p>
@@ -29,7 +29,7 @@ function LocationSection() {
           </span>
         </p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4 items-center gap-8  lg:gap-8 justify-center my-12 px-12'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4 items-center gap-8  lg:gap-8 justify-center my-12 px-16'>
         {cardData.map((location) => {
           return (
             <PlaceCard
