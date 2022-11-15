@@ -22,14 +22,14 @@ function LocationSection() {
           <p className='text-center'>Off-grid</p>
           <p className='text-center'>Farm</p>
         </div>
-        <p className='flex gap-2 border-2 border-[#D7D7D7] rounded-md sm:p-2 py-2 px-24 sm:ml-6 lg:ml-24 mx-auto w-[80%] sm:w-auto'>
+        <p className='flex gap-2 border-2 border-[#D7D7D7] rounded-md md:p-2 py-2 px-24 md:ml-6 lg:ml-24 mx-auto w-[80%] md:w-auto'>
           Location
           <span>
             <img src={filter} alt='filter icon' className='rotate-90' />
           </span>
         </p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4 items-center gap-8  lg:gap-8 justify-center my-12 px-16'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4 items-center gap-8  lg:gap-8 justify-center my-12 px-12 lg:px-0'>
         {cardData.map((location) => {
           return (
             <PlaceCard
